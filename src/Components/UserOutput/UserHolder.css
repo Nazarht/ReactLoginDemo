@@ -1,0 +1,13 @@
+.user-holder {
+    border: 1px rgb(75, 75, 75) solid;
+    width: 90%;
+    padding: 6px;
+    margin: 2px 5px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.user-holder:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

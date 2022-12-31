@@ -1,0 +1,5 @@
+const testObj = {
+    name: 'Nazar',
+    age: 25,
+    male: true
+}

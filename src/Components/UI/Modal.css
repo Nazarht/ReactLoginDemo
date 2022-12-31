@@ -1,0 +1,66 @@
+.background-modal {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-modal {
+    width: 60%;
+    height: 40%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    z-index: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main-modal div{
+    background-color: rgb(113, 44, 155);
+    width: 100%;
+    padding: 15px 5px;
+    z-index: 0;
+    border-radius: 25px 25px 0 0;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-modal span {
+    font-size: 2.6rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    letter-spacing: 1.3px;
+    align-self: center;
+}
+
+.main-modal p {
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.main-modal button {
+    height: 2rem;
+    width: 7rem;
+    grid-row: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    place-self: center;
+    background-color: rgb(113, 44, 155);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 10px;
+}

@@ -1,0 +1,25 @@
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+form button {
+    margin: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 50%;
+    align-self: center;
+    padding: 5px;
+    background-color: rgb(113, 44, 155);
+    border-radius: 15px;
+    color: white;
+}
+
+form label {
+    padding: 5px;
+}
+
+form input {
+    height: 1.5rem;
+}
